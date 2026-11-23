@@ -1,0 +1,14 @@
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/bin/Debug/net10.0/PaymentHub.Shared.deps.json
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/bin/Debug/net10.0/PaymentHub.Shared.runtimeconfig.json
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/bin/Debug/net10.0/PaymentHub.Shared.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/bin/Debug/net10.0/PaymentHub.Shared.pdb
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.csproj.AssemblyReference.cache
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.AssemblyInfoInputs.cache
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.AssemblyInfo.cs
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.csproj.CoreCompileInputs.cache
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/refint/PaymentHub.Shared.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.pdb
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.genruntimeconfig.cache
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/ref/PaymentHub.Shared.dll

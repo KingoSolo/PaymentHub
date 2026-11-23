@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "e3xsgwQo2h0=",
+  "success": true,
+  "projectFilePath": "/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Api/PaymentHub.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/Solomon/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/microsoft.entityframeworkcore/10.0.15/microsoft.entityframeworkcore.10.0.15.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.15/microsoft.entityframeworkcore.abstractions.10.0.15.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.15/microsoft.entityframeworkcore.analyzers.10.0.15.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.15/microsoft.entityframeworkcore.relational.10.0.15.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/microsoft.openapi/2.12.0/microsoft.openapi.2.12.0.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/npgsql/10.0.4/npgsql.10.0.4.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.4/npgsql.entityframeworkcore.postgresql.10.0.4.nupkg.sha512",
+    "/Users/Solomon/.nuget/packages/rabbitmq.client/7.2.2/rabbitmq.client.7.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

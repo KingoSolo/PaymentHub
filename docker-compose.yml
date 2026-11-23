@@ -1,0 +1,38 @@
+name: paymenthub
+
+services: 
+
+  db: 
+    image: postgres:17
+    container_name: paymenthub-db
+    restart: always
+    ports: 
+      - "5432:5432"
+    tmpfs: 
+       - /tmp:size=128M
+    environment: 
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-paymenthub}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: paymenthub-rabbitmq
+    restart: unless-stopped
+    ports: 
+      - "5672:5672" 
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+        
+volumes:
+      postgres_data: 
+      rabbitmq_data: 
+        
+

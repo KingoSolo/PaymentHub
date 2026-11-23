@@ -1,0 +1,6 @@
+@PaymentHub.MockBank_HostAddress = http://localhost:5066
+
+GET {{PaymentHub.MockBank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

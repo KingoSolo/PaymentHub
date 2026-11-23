@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PaymentHub.Api/PaymentHub.Api.csproj" />
+    <Project Path="src/PaymentHub.MockBank/PaymentHub.MockBank.csproj" />
+    <Project Path="src/PaymentHub.Shared/PaymentHub.Shared.csproj" />
+    <Project Path="src/PaymentHub.Worker/PaymentHub.Worker.csproj" />
+  </Folder>
+</Solution>
