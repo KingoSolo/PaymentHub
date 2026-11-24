@@ -12,3 +12,4 @@
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.pdb
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.genruntimeconfig.cache
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/ref/PaymentHub.Shared.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Shared/obj/Debug/net10.0/PaymentHub.Shared.sourcelink.json
