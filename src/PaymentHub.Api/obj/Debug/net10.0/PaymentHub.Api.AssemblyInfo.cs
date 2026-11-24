@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaymentHub.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f842b48f8d327c406b118e6b64d5ef9b80f5b58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07d9cc65aacca41c348f2019909656b8cd8259d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaymentHub.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaymentHub.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
