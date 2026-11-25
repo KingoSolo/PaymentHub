@@ -58,3 +58,4 @@
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Worker/obj/Debug/net10.0/PaymentHub.Worker.pdb
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Worker/obj/Debug/net10.0/PaymentHub.Worker.genruntimeconfig.cache
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.Worker/obj/Debug/net10.0/ref/PaymentHub.Worker.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.Worker/obj/Debug/net10.0/PaymentHub.Worker.sourcelink.json

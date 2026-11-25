@@ -31,3 +31,4 @@
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.MockBank/obj/Debug/net10.0/PaymentHub.MockBank.pdb
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.MockBank/obj/Debug/net10.0/PaymentHub.MockBank.genruntimeconfig.cache
 /Users/Solomon/Documents/PaymentHub/src/PaymentHub.MockBank/obj/Debug/net10.0/ref/PaymentHub.MockBank.dll
+/Users/Solomon/Documents/PaymentHub/src/PaymentHub.MockBank/obj/Debug/net10.0/PaymentHub.MockBank.sourcelink.json
