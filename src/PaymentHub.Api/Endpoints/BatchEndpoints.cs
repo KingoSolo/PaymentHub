@@ -1,8 +1,9 @@
 using PaymentHub.Shared.Data;
 using PaymentHub.Shared.Entities;
 using PaymentHub.Api.DTOs;
-using PaymentHub.Shared.Enums;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
+using PaymentHub.Shared.Messages;
 
 namespace PaymentHub.Api.Endpoints;
 public static class BatchEndpoints
@@ -12,7 +13,8 @@ public static class BatchEndpoints
         app.MapPost("/batches",async(
             CreatePaymentBatchRequest request,
             AppDbContext dbContext
-        )=>{
+        )=>
+        {
           PaymentBatch paymentBatch = new PaymentBatch
           {
              TotalPayments = request.PaymentRequests.Count,
@@ -24,7 +26,17 @@ public static class BatchEndpoints
                  IdempotencyKey = item.IdempotencyKey,
              }).ToList()
           };
+
+          var outboxMessages = paymentBatch.Payments.Select(payment => new OutboxMessage
+          {
+              PaymentId = payment.Id,
+              Type = "PaymentQueued",
+              Payload = JsonSerializer.Serialize(
+                new PaymentQueuedMessage(payment.Id, paymentBatch.Id))
+          }).ToList();
+
           dbContext.PaymentBatches.Add(paymentBatch);
+          dbContext.OutboxMessages.AddRange(outboxMessages);
           await dbContext.SaveChangesAsync();
 
           return Results.Created($"/batches/{paymentBatch.Id}", new
@@ -34,6 +46,7 @@ public static class BatchEndpoints
               totalpayments = paymentBatch.TotalPayments
           });
         });
+
 
         app.MapGet("/batches/{id:guid}",async(
             Guid id,

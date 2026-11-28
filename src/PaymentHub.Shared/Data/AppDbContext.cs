@@ -71,10 +71,30 @@ public class AppDbContext : DbContext
             ));
 
         });
+
+        modelBuilder.Entity<OutboxMessage>(entity =>
+        {
+            entity.HasIndex(o => o.PublishedAt);
+
+            entity.Property(o => o.PaymentId)
+                .IsRequired();
+
+            entity.Property(o => o.Type)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            entity.Property(o => o.Payload)
+                .IsRequired()
+                .HasColumnType("text");
+
+            entity.Property(o => o.LastError)
+          .IsRequired(false);
+        });
     } 
 
     public DbSet<Payment> Payments{get;set;}
     public DbSet<PaymentBatch> PaymentBatches{get;set;}
+    public DbSet<OutboxMessage> OutboxMessages{get;set;}
 
     
 }
